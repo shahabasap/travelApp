@@ -16,6 +16,7 @@ export default function HomeScreen({ navigation }) {
 
     <View style={styles.container}>
       <Text style={styles.title}>Awafi Mill</Text>
+      <Text style={styles.title} onPress={()=>navigation.navigate('login')}>Log in </Text>
       <FlatList
         data={products}
         renderItem={({ item }) => (
