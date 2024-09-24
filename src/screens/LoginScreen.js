@@ -20,7 +20,7 @@ const LoginComponent = () => {
       <Text style={styles.inputLabel}>Email or Phone Number</Text>
       <TextInput
         style={styles.input}
-        placeholder="Enter your email"
+        placeholder="Enter User Name"
         value={email}
         onChangeText={setEmail}
         keyboardType="email-address"
